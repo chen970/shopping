@@ -1,0 +1,349 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #EEEEEE;
+}
+.dd_denglu {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.header {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 124577;
+}
+.header .center {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #fff;
+}
+.header .center .hcl {
+  width: 30px;
+  float: left;
+}
+.header .center .hcl a {
+  display: block;
+  width: 30px;
+}
+.header .center .hcl a .iconfont {
+  font-size: 30px;
+}
+.header .center .centent {
+  float: left;
+  width: 80%;
+  text-align: center;
+}
+.header .center .ri {
+  float: right;
+  width: 30px;
+}
+.header .center .ri a {
+  display: block;
+  width: 30px;
+}
+.header .center .ri a .iconfont {
+  font-size: 30px;
+  font-weight: bold;
+}
+.user_login {
+  width: 100%;
+  margin-top: 38px;
+}
+.user_login .user_header {
+  width: 100%;
+  min-height: 115px;
+  background: url(../images/login/user-bg.jpg) no-repeat 0 0;
+}
+.user_login .user_header .user_center {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 115px;
+}
+.user_login .user_header .user_center .cnt {
+  text-align: center;
+  width: 100%;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -14px;
+}
+.user_login .user_header .user_center .cnt .user_denglu {
+  display: inline-block;
+  padding: 3px 8px;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.user_login .user_header .user_center .cnt .user_denglu a {
+  color: #fff;
+}
+.lo_shouchang {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 0 10px 0;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #fff;
+}
+.lo_shouchang .lo_sc_c {
+  width: 100%;
+  overflow: hidden;
+}
+.lo_shouchang .lo_sc_c ul {
+  width: 100%;
+}
+.lo_shouchang .lo_sc_c ul li {
+  width: 33.33333333%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.lo_shouchang .lo_sc_c ul li a {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+}
+.zouhang {
+  display: block;
+  width: 2px;
+  height: 80%;
+  background-color: #E5E5E5;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7%;
+}
+.lo_price {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 25px 10px;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #fff;
+}
+.lo_price .lo_pr_c {
+  width: 100%;
+}
+.lo_price .lo_pr_c a {
+  display: block;
+  width: 100%;
+}
+.lo_price .lo_pr_c a .p_left {
+  float: left;
+  width: 50%;
+}
+.lo_price .lo_pr_c a .p_left .img {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+}
+.lo_price .lo_pr_c a .p_left .img img {
+  width: 100%;
+}
+.lo_price .lo_pr_c a .p_right {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.lo_price .lo_pr_c a .p_right .iconfont {
+  font-size: 15px;
+}
+.p_lie {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  color: #666;
+}
+.p_lie ul {
+  width: 100%;
+}
+.p_lie ul li {
+  width: 33.33333333%;
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+}
+.p_lie ul li a {
+  display: block;
+  width: 100%;
+}
+.p_lie ul li a p .iconfont {
+  color: #666;
+}
+.huiyuan {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 25px 10px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.huiyuan .lo_pr_c {
+  width: 100%;
+}
+.huiyuan .lo_pr_c a {
+  display: block;
+  width: 100%;
+}
+.huiyuan .lo_pr_c a .p_left {
+  float: left;
+  width: 50%;
+}
+.huiyuan .lo_pr_c a .p_left .img {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+}
+.huiyuan .lo_pr_c a .p_left .img img {
+  width: 100%;
+}
+.huiyuan .lo_pr_c a .p_right {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.huiyuan .lo_pr_c a .p_right .iconfont {
+  font-size: 15px;
+}
+.jifen {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 25px 10px;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #fff;
+}
+.jifen .lo_pr_c {
+  width: 100%;
+}
+.jifen .lo_pr_c a {
+  display: block;
+  width: 100%;
+}
+.jifen .lo_pr_c a .p_left {
+  float: left;
+  width: 50%;
+}
+.jifen .lo_pr_c a .p_left .img {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+}
+.jifen .lo_pr_c a .p_left .img img {
+  width: 100%;
+}
+.jifen .lo_pr_c a .p_right {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.jifen .lo_pr_c a .p_right .iconfont {
+  font-size: 15px;
+}
+.footer {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+.footer .f_t {
+  width: 100%;
+  padding: 20px;
+  border-top: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  background-color: #fff;
+  line-height: 1px;
+}
+.footer .f_t .f_t_l {
+  font-size: 14px;
+  float: left;
+}
+.footer .f_t .f_t_l a {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+.footer .f_t .f_t_r {
+  float: right;
+  font-size: 15px;
+}
+.footer .nav {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.footer .nav ul {
+  width: 100%;
+}
+.footer .nav ul li {
+  width: 25%;
+  float: left;
+}
+.footer .nav ul li a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+}
+.footer .nav ul li a .wen {
+  color: #e43;
+}
+.footer .zjie {
+  color: #999;
+  text-align: center;
+  font-size: 13px;
+}
+.dibuz {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #fff;
+  position: fixed;
+  border-top: 1px solid #e5e5e5;
+  bottom: 0;
+  left: 0;
+}
+.dibuz .zjiezhe {
+  width: 100%;
+  height: 40px;
+}
+.dibuz .zjiezhe ul {
+  width: 100%;
+  height: 40px;
+}
+.dibuz .zjiezhe ul li {
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+.dibuz .zjiezhe ul li a {
+  display: block;
+  height: 40px;
+  width: 100%;
+}
+.dibuz .zjiezhe ul li a img {
+  width: 100%;
+  height: 100%;
+}

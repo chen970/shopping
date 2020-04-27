@@ -1,0 +1,613 @@
+@color:#EFF4FA;
+
+html,body{
+  width: 100%;
+  height:100%;
+  background-color: @color;
+}
+.dd_layout{
+  width:100%;
+  max-width:640px;
+  min-width: 300px;
+  margin: 0 auto;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+// 搜索栏
+.dd_header{
+  width:100%;
+  height: 39px;
+  .dd_header_box{
+    width: 100%;
+    max-width: 640px;
+    height: 39px;
+    background-color:#fff;
+    margin:0 auto;
+    padding: 10px;
+    position: relative;
+    .dd_logo{
+      display: block;
+      width:42px;
+      height:39px;
+      background-image: url(../images/icon/dd.png);
+      background-position: 0 0;
+      background-size:45px 39px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    form{
+      width:100%;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      margin-left: 12%;
+      margin-top: -1%;
+      input{
+        width: 80%;
+        height: 26px;
+        border-radius: 13px;
+        // margin-top: 10px;
+        padding: 0 0 0 25px;
+        background-color: #E8ECF0;
+        line-height: 26px;
+        color: #9CA8B0;
+        opacity: 0.8;
+      }
+     div{
+       width: 18px;
+       height: 18px;
+       position: absolute;
+       left: 0px;
+       top: 0;
+       opacity: 0.8;
+      .iconfont{
+        font-size: 25px;
+        color: #9CA8B0;
+      }
+     }
+    }
+    .dd_tiaozhuan{
+      width:42px;
+      height:39px;
+      line-height: 39px;
+      text-align: center;
+      position: absolute;
+      right: -5px;
+      top: 0;
+      .iconfont{
+        font-size: 40px;
+      }
+    }
+  }
+
+}
+// 搜索栏end
+
+
+// 轮播图 
+.dd_banner{
+  width: 100%;
+  position: relative;
+  .dd_wrapper{
+    width:100%;
+    overflow: hidden;
+    ul{
+      width:1000%;
+      li{
+        width:10%;
+        float:left;
+        a{
+          width:100%;
+          display: block;
+          font-size: 0;
+          img{
+            width:100%
+          }
+        }
+      }
+    }
+  }
+}
+.dd_advertising{
+  width: 100%;
+  overflow: hidden;
+  margin-top: -1px;
+  a{
+    display: block;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+// 轮播图 end
+
+// 列表页
+.dd_nav{
+  width:100%;
+  // padding: 5px;
+  background-color: #fff;
+  ul{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      flex: 1;
+      a{
+        display: block;
+        width:100%;
+        text-align:center;
+        // padding: 5px 8px;
+        img{
+          width: 100%;
+        }
+      }
+    }  
+  }
+}
+
+// 列表页end
+
+
+// 详情页之今日秒杀
+.dd_miaosha{
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  .dd_m_img{
+    width:100%;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+    a{
+      display: block;
+      width: 50px;
+      height:30px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      text-indent:-80rem ;
+    }
+  }
+  .dd_m_time{
+    margin-bottom: 20px;
+    text-align: center;
+    >span{
+     padding: 2px;
+    }
+   .hhei{
+    display: inline-block;
+     background-color: #333;
+     color: #fff;
+     padding-left: 2px;
+     border-radius: 3px;
+    }
+    .hhong{
+      color: #fff;
+      padding-left: 2px;
+      border-radius: 3px;
+      display: inline-block;
+      background-color: #F3344A;
+    }
+  }
+  .dd_m_more{
+    width: 100%;
+    overflow: hidden;
+    // position: relative;
+    ul{
+      width: 999px;
+       transform: translate(0px, 0px) translateZ(0px);
+      // transform: translate(0px 0px) translateZ(0px);
+      li{
+        width:84px;
+        float:left;
+        margin-left: 5px;
+        overflow: hidden;
+        a{
+          width: 100%;
+          display: block;
+          img{
+            width: 100%;
+          }
+        }
+        p{
+          font-size: 12px ;
+          overflow: hidden; 
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          display: -webkit-box;
+        }
+        .redd{
+          color: #e43;
+          font-size: 15px;
+        }
+        .hhui{
+          color: #999;
+          font-size: 12px;
+          text-decoration: line-through;
+        }
+      
+    }
+    }
+  }
+}
+// 详情页之今日秒杀end
+
+// 详情页之图书商城
+.dd_guangg{
+  width: 100%;
+  margin-top: 10px;
+  .guang_img{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+}
+.dd_erhuo{
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  background-color:#fff;
+  padding-bottom: 5px;
+  .guer{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .wen{
+    span{
+      font-size: 12px;
+    }
+    .iconfont{
+      font-size: 13px;
+    }
+  }
+}
+.dd_tushu{
+  width: 100%;
+  .dd_tushu_gg{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+}
+.tu_shubiao{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  .dd_tushu_lie{
+    width:100%;
+    ul{
+      width: 100%;
+      li{
+        width: (100%/3);
+        float: left;
+        a{
+          display: block;
+          width: 100%;
+          background-color: #fff;
+          p{
+            font-size: 14px;
+          }
+          span{
+            font-size: 12px;
+            color: #e43;
+          }
+          img{
+          width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.shsh{
+  margin-top: 2px;
+}
+// 详情页之图书商城end
+
+// 详情页之鞋包
+
+.xiebao{
+  margin-top: 10px;
+}
+.dd_xb_xiang{
+  width: 100%;
+  .xb_left{
+    float:left;
+    width: 50%;
+    background-color:#ffff;
+    a{
+      display: block;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      .l_wen{
+        text-align: center;
+        width:45%;
+        height: 100%;
+        float: left;
+        font-size: 12px;
+      }
+      .l_tu{
+        width: 55%;
+        margin-top: 76.77px;
+        float: left;
+          img{
+            width: 100%;
+         }
+      }
+    }
+  }
+  .xb_right{
+    float: right;
+    width: 50%;
+    text-align: center;
+    .r_top{
+      width: 100%;
+      a{
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        overflow:hidden;
+        .r_l{
+          width: 50%;
+          font-size: 12px;
+          float: left;
+        }
+        .r_r{
+          width: 50%;
+          float:left;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .r_down{
+      width: 100%;
+      margin-top: 1px;
+      a{
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        overflow:hidden;
+        .r_l{
+          width: 50%;
+          font-size: 12px;
+          float: left;
+        }
+        .r_r{
+          width: 50%;
+          float:left;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.dd_y_z{
+  width: 100%;
+  margin-top: 2px;
+  .sec{
+    width:100%;
+    ul{
+      width: 100%;
+      li{
+        width: 25%;
+        float: left;
+        a{
+          display: block;
+          width: 100%;
+          background-color: #fff;
+          position: relative;
+          .sec-wen{
+            width: 100%;
+            font-size: 12px;
+            text-align: center;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.wen-h{
+  color:#c72895;
+}
+.hangxiang{
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: @color;
+  position: absolute;
+  right: 0;
+  top:0;
+}
+// 详情页之鞋包end
+
+// 详情页之聚食惠 
+
+
+// 详情页之聚食惠 end
+
+
+// 详情页之你可能喜欢
+.dd_like{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  .text{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    .iconfont{
+      font-size: 15px;
+      color: #e43;
+    }
+  }
+}
+ 
+.like_list{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  .shu_list{
+    width: 100%;
+    ul{
+      width: 100%;
+      li{
+        width: 50%;
+        float: left;
+        background-color: #fff;
+        position: relative;
+        padding-left: 3px;
+        box-sizing: border-box;
+        // text-align: center;
+        a{
+          width: 100%;
+          display: block;
+          img{
+            width: 100%;
+
+          }
+        }
+        p{
+          font-size: 12px ;
+          overflow: hidden; 
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          display: -webkit-box;
+        }
+        .ssd{
+          display: inline-block;
+          border: 1px solid #e43;
+          font-size: 12px;
+          color: #e43;
+        }
+        .redd{
+          font-size: 14px;
+          color: #e43;
+        }
+      }
+    }
+  }
+}
+// 详情页之你可能喜欢end
+
+// 底部栏链接栏
+.footer{
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 5px;
+  .f_t{
+    width: 100%;
+    padding:20px;
+    border-top: 2px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+    background-color: #fff;
+    line-height: 1px;
+    .f_t_l{
+      font-size: 14px;
+      float: left;
+      a{
+        display: block;
+        float: left;
+        margin-left: 10px;
+      }
+    }
+    .f_t_r{
+      float: right;
+      font-size: 15px;
+    }
+  }
+  .nav{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    ul{
+      width: 100%;
+      li{
+        width: 25%;
+        float: left;
+        a{
+          text-align: center;
+          display: block;
+          width: 100%;
+          font-size: 13px;
+          span{
+
+          }
+          .wen{
+            color: #e43;
+          }
+        }
+      }
+    }
+  }
+  .zjie{
+    color:#999;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+// 底部栏链接栏end
+
+// 底部栏icon
+.dibuz{
+  width: 100%;
+  max-width:640px;
+  min-width:300px;
+  margin:0 auto;
+  height: 40px;
+  background-color: #fff;
+  position: fixed;
+  border-top: 1px solid #e5e5e5;
+  bottom: 0;
+  left: 0;
+  .zjiezhe{
+    width: 100%;
+    height: 40px;
+    ul{
+      width: 100%;
+      height: 40px;
+      li{
+        width: 20%;
+        padding-left:10px;
+        padding-right: 10px;
+        height: 40px;
+        float: left;
+        box-sizing: border-box;
+        a{
+          display: block;
+          height: 40px;
+          width: 100%;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 底部栏icon  end

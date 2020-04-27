@@ -1,0 +1,91 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+.gouwuche {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.header {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 124577;
+}
+.header .center {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #fff;
+}
+.header .center .hcl {
+  width: 30px;
+  float: left;
+}
+.header .center .hcl a {
+  display: block;
+  width: 30px;
+}
+.header .center .hcl a .iconfont {
+  font-size: 30px;
+}
+.header .center .centent {
+  float: left;
+  width: 80%;
+  text-align: center;
+}
+.header .center .ri {
+  float: right;
+  width: 30px;
+}
+.header .center .ri a {
+  display: block;
+  width: 30px;
+}
+.header .center .ri a .iconfont {
+  font-size: 30px;
+  font-weight: bold;
+}
+.gou_xinxi {
+  width: 100%;
+  min-height: 80%;
+  margin: 0 auto;
+  margin-top: 38px;
+  overflow: hidden;
+  text-align: center;
+}
+.gou_xinxi .gouzhu {
+  width: 100%;
+  text-align: center;
+}
+.gou_xinxi .wen {
+  width: 100%;
+}
+.gou_xinxi .wen p {
+  font-size: 12px;
+  color: #999;
+}
+.gou_xinxi .wen .lianjie {
+  width: 80%;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.gou_xinxi .wen .lianjie a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #666;
+  border-radius: 10px;
+}

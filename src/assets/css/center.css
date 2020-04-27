@@ -1,0 +1,674 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #EFF4FA;
+}
+
+.dd_layout {
+    width: 100%;
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.dd_header {
+    width: 100%;
+    height: 39px;
+}
+
+.dd_header .dd_header_box {
+    width: 100%;
+    max-width: 640px;
+    height: 39px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.dd_header .dd_header_box .dd_logo {
+    display: block;
+    width: 42px;
+    height: 39px;
+    background-image: url(../images/icon/dd.png);
+    background-position: 0 0;
+    background-size: 45px 39px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dd_header .dd_header_box form {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -1%;
+}
+
+.dd_header .dd_header_box form input {
+    width: 80%;
+    height: 26px;
+    border-radius: 13px;
+    padding: 0 0 0 25px;
+    background-color: #E8ECF0;
+    line-height: 26px;
+    color: #9CA8B0;
+    opacity: 0.8;
+}
+
+.dd_header .dd_header_box form div {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    opacity: 0.8;
+}
+
+.dd_header .dd_header_box form div .iconfont {
+    font-size: 25px;
+    color: #9CA8B0;
+}
+
+.dd_header .dd_header_box .dd_tiaozhuan {
+    width: 42px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+
+.dd_header .dd_header_box .dd_tiaozhuan .iconfont {
+    font-size: 40px;
+}
+
+.dd_banner {
+    width: 100%;
+    position: relative;
+}
+
+.dd_banner .dd_wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dd_banner .dd_wrapper ul {
+    width: 1000%;
+}
+
+.dd_banner .dd_wrapper ul li {
+    width: 10%;
+    float: left;
+}
+
+.dd_banner .dd_wrapper ul li a {
+    width: 100%;
+    display: block;
+    font-size: 0;
+}
+
+.dd_banner .dd_wrapper ul li a img {
+    width: 100%;
+}
+
+.dd_advertising {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+.dd_advertising a {
+    display: block;
+}
+
+.dd_advertising a img {
+    width: 100%;
+}
+
+.dd_nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.dd_nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dd_nav ul li {
+    flex: 1;
+}
+
+.dd_nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.dd_nav ul li a img {
+    width: 100%;
+}
+
+.dd_miaosha {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dd_miaosha .dd_m_img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dd_miaosha .dd_m_img img {
+    width: 100%;
+}
+
+.dd_miaosha .dd_m_img a {
+    display: block;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-indent: -80rem;
+}
+
+.dd_miaosha .dd_m_time {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dd_miaosha .dd_m_time>span {
+    padding: 2px;
+}
+
+.dd_miaosha .dd_m_time .hhei {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding-left: 2px;
+    border-radius: 3px;
+}
+
+.dd_miaosha .dd_m_time .hhong {
+    color: #fff;
+    padding-left: 2px;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: #F3344A;
+}
+
+.dd_miaosha .dd_m_more {
+    width: 100%;
+    overflow: hidden;
+}
+
+.dd_miaosha .dd_m_more ul {
+    width: 999px;
+    transform: translate(0px, 0px) translateZ(0px);
+}
+
+.dd_miaosha .dd_m_more ul li {
+    width: 84px;
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.dd_miaosha .dd_m_more ul li a {
+    width: 100%;
+    display: block;
+}
+
+.dd_miaosha .dd_m_more ul li a img {
+    width: 100%;
+}
+
+.dd_miaosha .dd_m_more ul li p {
+    font-size: 12px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}
+
+.dd_miaosha .dd_m_more ul li .redd {
+    color: #e43;
+    font-size: 15px;
+}
+
+.dd_miaosha .dd_m_more ul li .hhui {
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.dd_guangg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dd_guangg .guang_img {
+    width: 100%;
+}
+
+.dd_guangg .guang_img img {
+    width: 100%;
+}
+
+.dd_erhuo {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.dd_erhuo .guer {
+    width: 100%;
+}
+
+.dd_erhuo .guer img {
+    width: 100%;
+}
+
+.dd_erhuo .wen span {
+    font-size: 12px;
+}
+
+.dd_erhuo .wen .iconfont {
+    font-size: 13px;
+}
+
+.dd_tushu {
+    width: 100%;
+}
+
+.dd_tushu .dd_tushu_gg {
+    width: 100%;
+}
+
+.dd_tushu .dd_tushu_gg img {
+    width: 100%;
+}
+
+.tu_shubiao {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tu_shubiao .dd_tushu_lie {
+    width: 100%;
+}
+
+.tu_shubiao .dd_tushu_lie ul {
+    width: 100%;
+}
+
+.tu_shubiao .dd_tushu_lie ul li {
+    width: 33.33333333%;
+    float: left;
+}
+
+.tu_shubiao .dd_tushu_lie ul li a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+
+.tu_shubiao .dd_tushu_lie ul li a p {
+    font-size: 14px;
+}
+
+.tu_shubiao .dd_tushu_lie ul li a span {
+    font-size: 12px;
+    color: #e43;
+}
+
+.tu_shubiao .dd_tushu_lie ul li a img {
+    width: 100%;
+}
+
+.shsh {
+    margin-top: 2px;
+}
+
+.xiebao {
+    margin-top: 10px;
+}
+
+.dd_xb_xiang {
+    width: 100%;
+}
+
+.dd_xb_xiang .xb_left {
+    float: left;
+    width: 50%;
+    background-color: #ffff;
+}
+
+.dd_xb_xiang .xb_left a {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.dd_xb_xiang .xb_left a .l_wen {
+    text-align: center;
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+}
+
+.dd_xb_xiang .xb_left a .l_tu {
+    width: 55%;
+    margin-top: 76.77px;
+    float: left;
+}
+
+.dd_xb_xiang .xb_left a .l_tu img {
+    width: 100%;
+}
+
+.dd_xb_xiang .xb_right {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.dd_xb_xiang .xb_right .r_top {
+    width: 100%;
+}
+
+.dd_xb_xiang .xb_right .r_top a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dd_xb_xiang .xb_right .r_top a .r_l {
+    width: 50%;
+    font-size: 12px;
+    float: left;
+}
+
+.dd_xb_xiang .xb_right .r_top a .r_r {
+    width: 50%;
+    float: left;
+}
+
+.dd_xb_xiang .xb_right .r_top a .r_r img {
+    width: 100%;
+}
+
+.dd_xb_xiang .xb_right .r_down {
+    width: 100%;
+    margin-top: 1px;
+}
+
+.dd_xb_xiang .xb_right .r_down a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dd_xb_xiang .xb_right .r_down a .r_l {
+    width: 50%;
+    font-size: 12px;
+    float: left;
+}
+
+.dd_xb_xiang .xb_right .r_down a .r_r {
+    width: 50%;
+    float: left;
+}
+
+.dd_xb_xiang .xb_right .r_down a .r_r img {
+    width: 100%;
+}
+
+.dd_y_z {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.dd_y_z .sec {
+    width: 100%;
+}
+
+.dd_y_z .sec ul {
+    width: 100%;
+}
+
+.dd_y_z .sec ul li {
+    width: 25%;
+    float: left;
+}
+
+.dd_y_z .sec ul li a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+.dd_y_z .sec ul li a .sec-wen {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dd_y_z .sec ul li a img {
+    width: 100%;
+}
+
+.wen-h {
+    color: #c72895;
+}
+
+.hangxiang {
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #EFF4FA;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dd_like {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.dd_like .text {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.dd_like .text .iconfont {
+    font-size: 15px;
+    color: #e43;
+}
+
+.like_list {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.like_list .shu_list {
+    width: 100%;
+}
+
+.like_list .shu_list ul {
+    width: 100%;
+}
+
+.like_list .shu_list ul li {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    position: relative;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+.like_list .shu_list ul li a {
+    width: 100%;
+    display: block;
+}
+
+.like_list .shu_list ul li a img {
+    width: 100%;
+}
+
+.like_list .shu_list ul li p {
+    font-size: 12px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}
+
+.like_list .shu_list ul li .ssd {
+    display: inline-block;
+    border: 1px solid #e43;
+    font-size: 12px;
+    color: #e43;
+}
+
+.like_list .shu_list ul li .redd {
+    font-size: 14px;
+    color: #e43;
+}
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.footer .f_t {
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+    background-color: #fff;
+    line-height: 1px;
+}
+
+.footer .f_t .f_t_l {
+    font-size: 14px;
+    float: left;
+}
+
+.footer .f_t .f_t_l a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.footer .f_t .f_t_r {
+    float: right;
+    font-size: 15px;
+}
+
+.footer .nav {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.footer .nav ul {
+    width: 100%;
+}
+
+.footer .nav ul li {
+    width: 25%;
+    float: left;
+}
+
+.footer .nav ul li a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+.footer .nav ul li a .wen {
+    color: #e43;
+}
+
+.footer .zjie {
+    color: #999;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dibuz {
+    width: 100%;
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+    border-top: 1px solid #e5e5e5;
+    bottom: 0;
+    left: 0;
+}
+
+.dibuz .zjiezhe {
+    width: 100%;
+    height: 40px;
+}
+
+.dibuz .zjiezhe ul {
+    width: 100%;
+    height: 40px;
+}
+
+.dibuz .zjiezhe ul li {
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.dibuz .zjiezhe ul li a {
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+
+.dibuz .zjiezhe ul li a img {
+    width: 100%;
+    height: 100%;
+}
